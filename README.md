@@ -15,33 +15,33 @@ do
 prefix=$(basename $i .fq.gz)
 
 
-printf "${RED}######################################## \n working on $i ########################################${NC}"
+printf "${RED}######################################## \n working on $i \n ########################################${NC}"
 #SEE INSERT LENGTH = 30
 
 
-printf "${RED}############################## \n remove adapers and reads shorter than 30bp (fastp) "##############################${NC}"
+printf "${RED}############################## \n remove adapers and reads shorter than 30bp (fastp) \n ##############################${NC}"
 fastp -i ${i} -o ${prefix}.trimmed.fastq -l 30
 
 
-printf "${RED}############################## \n remove duplicates (vsearch) "##############################${NC}"
+printf "${RED}############################## \n remove duplicates (vsearch) \n ##############################${NC}"
 vsearch --fastx_uniques ${prefix}.trimmed.fastq --fastqout ${prefix}.vs.fq --minseqlength 30 --strand both
 gzip ${prefix}.vs.fq
 
 
-printf "${RED}############################## \n mapping the reads (bowtie2) "##############################${NC}"
+printf "${RED}############################## \n mapping the reads (bowtie2) \n ##############################${NC}"
 bowtie2 --threads 5 -k 100 -x ~/course/data/shared/mapping/db/aegenomics.db -U ${prefix}.vs.fq.gz --no-unal | samtools view -bS - > ${prefix}.bam
 
 
-printf "${RED}############################## \n sorting and indexing the alignments (samtools) "##############################${NC}"
+printf "${RED}############################## \n sorting and indexing the alignments (samtools) \n ##############################${NC}"
 samtools sort ${prefix}.bam -o ${prefix}.sorted.bam
 samtools index ${prefix}.sorted.bam
 
 
-printf "${RED}############################## \n investigating ancient damage patterns (mapDamage) "##############################${NC}"
+printf "${RED}############################## \n investigating ancient damage patterns (mapDamage) \n ##############################${NC}"
 mapDamage -i ${prefix}.sorted.bam -r ~/course/data/shared/mapping/db/aegenomics.db.fasta --no-stats
 done
 ```
 
-for each step discuss with your group members which parameters to set and write down the arguments for selecting these.
+We kept the "standard" parameters
 
 # Day 2
