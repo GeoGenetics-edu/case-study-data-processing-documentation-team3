@@ -3,6 +3,11 @@
 # Day 1
 
 
+Loop to process the 5 samples:
 ```
 some type of code
 ```
+
+for each step discuss with your group members which parameters to set and write down the arguments for selecting these.
+
+# Day 2
