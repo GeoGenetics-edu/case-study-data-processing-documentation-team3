@@ -33,7 +33,7 @@ bowtie2 --threads 5 -k 100 -x ~/course/data/shared/mapping/db/aegenomics.db -U $
 
 
 printf "\n${RED}############################## \n sorting and indexing the alignments (samtools) \n ##############################${NC}\n"
-samtools sort ${prefix}.bam -@ 5 -o ${prefix}.sorted.bam
+samtools sort -n ${prefix}.bam -@ 5 -o ${prefix}.sorted.bam
 samtools index ${prefix}.sorted.bam
 
 
