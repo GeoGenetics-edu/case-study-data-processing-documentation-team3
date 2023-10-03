@@ -33,15 +33,15 @@ bowtie2 --threads 5 -k 100 -x ~/course/data/shared/mapping/db/aegenomics.db -U $
 
 
 printf "\n${RED}############################## \n sorting and indexing the alignments (samtools) \n ##############################${NC}\n"
-samtools sort ${prefix}.bam -o ${prefix}.sorted.bam
+samtools sort ${prefix}.bam -@ 5 -o ${prefix}.sorted.bam
 samtools index ${prefix}.sorted.bam
 
 
-printf "\n${RED}############################## \n investigating ancient damage patterns (mapDamage) \n ##############################${NC}\n"
-mapDamage -i ${prefix}.sorted.bam -r ~/course/data/shared/mapping/db/aegenomics.db.fasta --no-stats
+printf "\n${RED}############################## \n investigating ancient damage patterns (mapDamage) - CANCELED \n ##############################${NC}\n"
+# mapDamage -i ${prefix}.sorted.bam -r ~/course/data/shared/mapping/db/aegenomics.db.fasta --no-stats
 done
 ```
 
-We kept the "standard" parameters
+We kept the same parameters as in the example commands. 
 
 # Day 2
