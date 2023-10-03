@@ -60,8 +60,13 @@ metaDMG compute config.yaml
 
 metaDMG compute config.yaml 
 ```
+
+
+### metaDMG results for eukaryotic taxa at the genus level:
+
 <p align="center">
   <img src="https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/8ce1f1a7-667f-42aa-8e27-c4b97496cb88">
 </p>  
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fcat-leap&psig=AOvVaw3-Xlo-GtyDd6IdFywYXge7&ust=1696421177390000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjNusPr2YEDFQAAAAAdAAAAABAE
+We found a shift in the damage distribution between the different samples, which could be an indicator of different sampling depths and, thereby, different ages of the samples. This pattern is clear for the eukaryotic taxa, whereas for bacteria and archea, no pattern can be seen (and the majority of the latter have poor damage patterns). We speculate that this could be due to the differences in the living conditions for those taxa - where some bacteria could live in the deeper soil levels and most of the eukaryotic deposits come from stationary sources. 
+
