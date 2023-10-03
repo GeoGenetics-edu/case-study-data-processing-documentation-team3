@@ -5,9 +5,12 @@
 
 Loop to process the 5 samples:
 ```
+conda activate day1
+
 RED='\033[0;36m'
 NC='\033[0m'
 
+#SPECIFY THE CORRECT PATH HERE:
 for i in ~/course/data/day2/fastq/*.gz
 do
 
@@ -39,10 +42,21 @@ samtools index ${prefix}.sorted.bam
 
 printf "\n${RED}############################## \n investigating ancient damage patterns (metaDMG) - CANCELED \n ##############################${NC}\n"
 # mapDamage -i ${prefix}.sorted.bam -r ~/course/data/shared/mapping/db/aegenomics.db.fasta --no-stats
-metaDMG-cpp lca -bam ${prefix}.sorted.bam -names ~/course/data/shared/mapping/taxonomy/names.dmp -nodes ~/course/data/shared/mapping/taxonomy/nodes.dmp -acc2tax ~/course/data/shared/mapping/taxonomy/acc2taxid.map.gz -weighttype 1 -fix_ncbi 0 -out ${prefix}
+# metaDMG-cpp lca -bam ${prefix}.sorted.bam -names ~/course/data/shared/mapping/taxonomy/names.dmp -nodes ~/course/data/shared/mapping/taxonomy/nodes.dmp -acc2tax ~/course/data/shared/mapping/taxonomy/acc2taxid.map.gz -weighttype 1 -fix_ncbi 0 -out ${prefix}
+
 done
 ```
 
 We kept the same parameters as in the example commands. 
 
 # Day 2
+
+```
+conda activate metaDMG
+
+metaDMG config *.sorted.bam --names ~/course/data/shared/mapping/taxonomy/names.dmp --nodes ~/course/data/shared/mapping/taxonomy/nodes.dmp --acc2tax ~/course/data/shared/mapping/taxonomy/acc2taxid.map.gz -m /usr/local/bin/metaDMG-cpp
+
+metaDMG compute config.yaml
+
+metaDMG compute config.yaml 
+```
