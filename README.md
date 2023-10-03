@@ -37,8 +37,9 @@ samtools sort ${prefix}.bam -@ 5 -o ${prefix}.sorted.bam
 samtools index ${prefix}.sorted.bam
 
 
-printf "\n${RED}############################## \n investigating ancient damage patterns (mapDamage) - CANCELED \n ##############################${NC}\n"
+printf "\n${RED}############################## \n investigating ancient damage patterns (metaDMG) - CANCELED \n ##############################${NC}\n"
 # mapDamage -i ${prefix}.sorted.bam -r ~/course/data/shared/mapping/db/aegenomics.db.fasta --no-stats
+metaDMG-cpp lca -bam ${prefix}.sorted.bam -names ~/course/data/shared/mapping/taxonomy/names.dmp -nodes ~/course/data/shared/mapping/taxonomy/nodes.dmp -acc2tax ~/course/data/shared/mapping/taxonomy/acc2taxid.map.gz -weighttype 1 -fix_ncbi 0 -out ${prefix}
 done
 ```
 
