@@ -69,4 +69,5 @@ metaDMG compute config.yaml
 </p>  
 
 We found a shift in the damage distribution between the different samples, which could be an indicator of different sampling depths and, thereby, different ages of the samples. This pattern is clear for the eukaryotic taxa, whereas for bacteria and archea, no pattern can be seen (and the majority of the latter have poor damage patterns). We speculate that this could be due to the differences in the living conditions for those taxa - where some bacteria could live in the deeper soil levels and most of the eukaryotic deposits come from stationary sources. 
+The red sample (plot) having been samples at the deepest level, followed by blue, green, purple and grey. 
 
