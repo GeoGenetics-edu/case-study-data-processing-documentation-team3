@@ -64,3 +64,4 @@ metaDMG compute config.yaml
   <img width="460" height="300" src="[https://picsum.photos/460/300](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/8ce1f1a7-667f-42aa-8e27-c4b97496cb88)https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/8ce1f1a7-667f-42aa-8e27-c4b97496cb88">
 </p>  
 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fcat-leap&psig=AOvVaw3-Xlo-GtyDd6IdFywYXge7&ust=1696421177390000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjNusPr2YEDFQAAAAAdAAAAABAE
