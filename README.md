@@ -61,6 +61,6 @@ metaDMG compute config.yaml
 metaDMG compute config.yaml 
 ```
 <p align="center">
-  <img width="460" height="300" src="[https://picsum.photos/460/300](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/8ce1f1a7-667f-42aa-8e27-c4b97496cb88)https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/8ce1f1a7-667f-42aa-8e27-c4b97496cb88">
+  <img src="https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/8ce1f1a7-667f-42aa-8e27-c4b97496cb88">
 </p>  
 
