@@ -50,8 +50,6 @@ done
 We kept the same parameters as in the example commands. 
 
 # Day 2
-![newplot (4)](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/8ce1f1a7-667f-42aa-8e27-c4b97496cb88)
-
 
 ```
 conda activate metaDMG
@@ -62,3 +60,6 @@ metaDMG compute config.yaml
 
 metaDMG compute config.yaml 
 ```
+
+![newplot (4)](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/8ce1f1a7-667f-42aa-8e27-c4b97496cb88)
+
