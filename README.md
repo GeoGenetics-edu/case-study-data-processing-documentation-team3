@@ -50,7 +50,8 @@ done
 We kept the same parameters as in the example commands. 
 
 # Day 2
-
+## Taxonomic profiling and DNA damage estimates (metaDMG) for each individual taxonomic node
+We used metaDMG (https://github.com/metaDMG-dev/metaDMG-core) to taxonomically classify each individual read to the loest taxonomic node possible using a similarity identity between 95-100% to reference.
 ```
 conda activate metaDMG
 
