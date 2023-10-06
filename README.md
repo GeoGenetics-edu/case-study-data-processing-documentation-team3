@@ -188,3 +188,30 @@ stat_compare_means(comparisons = my_comparisons)+
 ![Screenshot 2023-10-05 192312](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/bc9be8e2-00db-44af-be22-01167f46e737)
 
 
+
+
+
+
+
+# Day 5
+
+##Ancient pathogens: The ancient plague DNA
+
+
+both pestis and pseudotub have the top of the distribution around 8X depth, they have lamost the same distribution
+while intermidia had almost all read covering 1X 
+[coverage_hist.pdf](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/files/12830259/coverage_hist.pdf)
+
+
+the specific plasmid of pseudotub is not seems to be there (10.1)
+[coverage_avg.pdf](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/files/12830281/coverage_avg.pdf)
+
+interesting the pMT1 had IS regions around the missing part-->HGT--->4K years ago
+[coverage_pMT1.pdf](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/files/12830133/coverage_pMT1.pdf)
+
+
+
+
+
+
+
