@@ -64,6 +64,7 @@ metaDMG compute config.yaml
 
 
 ### metaDMG [results](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/blob/main/config.yaml)  for eukaryotic taxa at the genus level:
+![newplot (4)](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/1e9d1511-f70e-4b3b-96da-13324974d9ef)
 
 <p align="center">
   <img src="https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/8ce1f1a7-667f-42aa-8e27-c4b97496cb88">
