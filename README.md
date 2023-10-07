@@ -184,9 +184,11 @@ stat_compare_means(comparisons = my_comparisons)+
 [plot (2).pdf](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/files/12821573/plot.2.pdf)
 
 ## The difference between reads and genome abundances ^^
+
+
 [plot2.pdf](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/files/12821572/plot2.pdf)
 
-![Screenshot 2023-10-05 192312](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/bc9be8e2-00db-44af-be22-01167f46e737)
+and
 
 ![Screenshot 2023-10-05 192312](https://github.com/GeoGenetics-edu/case-study-data-processing-documentation-team3/assets/48062644/22ce43b5-85f3-4893-b1cf-e66596c4b0c7)
 
